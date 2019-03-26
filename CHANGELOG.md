@@ -1,3 +1,9 @@
+## 0.2.2
+
+### Fixed
+
+- Build es5 compatible code
+
 ## 0.2.1
 
 ### Fixed

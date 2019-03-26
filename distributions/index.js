@@ -29,7 +29,7 @@ var FIG_CROSS = _figures.default.cross;
 
 var createReporter = function createReporter() {
   var output = (0, _through.default)();
-  var p = (0, _tapParser.default)();
+  var p = new _tapParser.default();
   var stream = (0, _duplexer.default)(p, output);
   var startedAt = Date.now();
 

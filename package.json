@@ -1,6 +1,6 @@
 {
   "name": "@detools/tap-diff",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "The most human-friendly TAP reporter",
   "main": "./distributions/index.js",
   "bin": {
