@@ -1,6 +1,6 @@
 {
-  "name": "tap-diff",
-  "version": "0.1.1",
+  "name": "@detools/tap-diff",
+  "version": "0.2.0",
   "description": "The most human-friendly TAP reporter",
   "main": "./distributions/index.js",
   "bin": {
@@ -8,31 +8,36 @@
   },
   "scripts": {
     "babel": "babel ./sources --out-dir ./distributions",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pub": "npm publish ./ --access public"
   },
-  "author": "axross <kou@axross.org> (http://axross.me/)",
+  "authors": [
+    "axross <kou@axross.org> (http://axross.me/)",
+    "Anton Kuznetsov <isnifer@gmail.com> (https://github.com/isnifer)"
+  ],
   "license": "MIT",
   "dependencies": {
-    "chalk": "^1.1.1",
-    "diff": "^2.2.1",
+    "chalk": "^2.4.2",
+    "diff": "^4.0.1",
     "duplexer": "^0.1.1",
-    "figures": "^1.4.0",
-    "jsondiffpatch": "^0.1.41",
-    "pretty-ms": "^2.1.0",
-    "tap-parser": "^1.2.2",
-    "through2": "^2.0.0"
+    "figures": "^2.0.0",
+    "jsondiffpatch": "^0.3.11",
+    "pretty-ms": "^4.0.0",
+    "tap-parser": "^9.3.1",
+    "through2": "^3.0.1"
   },
   "devDependencies": {
-    "babel": "^5.8.34"
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/axross/tap-diff.git"
+    "url": "git+https://github.com/detools/tap-diff.git"
   },
   "bugs": {
-    "url": "https://github.com/axross/tap-diff/issues"
+    "url": "https://github.com/detools/tap-diff/issues"
   },
-  "homepage": "https://github.com/axross/tap-diff#readme",
+  "homepage": "https://github.com/detools/tap-diff#readme",
   "keywords": [
     "tap",
     "tape",
