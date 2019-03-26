@@ -1,6 +1,6 @@
-# tap-diff
+# @detools/tap-diff
 
-[![npm version](https://badge.fury.io/js/tap-diff.svg)](http://badge.fury.io/js/tap-diff)
+[![npm version](https://badge.fury.io/js/@detools/tap-diff.svg)](http://badge.fury.io/js/@detools/tap-diff)
 
 The most human-friendly [TAP reporter](https://github.com/substack/tape#pretty-reporters).
 
@@ -10,10 +10,10 @@ The most human-friendly [TAP reporter](https://github.com/substack/tape#pretty-r
 
 ## How to use
 
-You can use tap-diff in the same way as other [TAP reporters](https://github.com/substack/tape#pretty-reporters).
+You can use @detools/tap-diff in the same way as other [TAP reporters](https://github.com/substack/tape#pretty-reporters).
 
 ```
-npm install -g tap-diff
+npm install -g @detools/tap-diff
 ```
 
 ```
@@ -33,7 +33,7 @@ Or use with `createStream()`:
 'use strict'
 
 const test = require('tape')
-const tapDiff = require('tap-diff')
+const tapDiff = require('@detools/tap-diff')
 
 test.createStream()
   .pipe(tapDiff())
