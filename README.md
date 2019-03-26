@@ -10,7 +10,7 @@ The most human-friendly [TAP reporter](https://github.com/substack/tape#pretty-r
 
 ## How to use
 
-You can use @detools/tap-diff in the same way as other [TAP reporters](https://github.com/substack/tape#pretty-reporters).
+You can use `@detools/tap-diff` in the same way as other [TAP reporters](https://github.com/substack/tape#pretty-reporters).
 
 ```
 npm install -g @detools/tap-diff
@@ -20,7 +20,7 @@ npm install -g @detools/tap-diff
 tape ./*.test.js | tap-diff
 ```
 
-tap-diff uses [chalk](https://www.npmjs.com/package/chalk) for adding color, which automatically detects
+`@detools/tap-diff` uses [chalk](https://www.npmjs.com/package/chalk) for adding color, which automatically detects
 color terminals. If you're piping the output and want to force color:
 
 ```
