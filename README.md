@@ -1,6 +1,9 @@
 # @detools/tap-diff
 
 [![npm version](https://badge.fury.io/js/%40detools%2Ftap-diff.svg)](https://badge.fury.io/js/%40detools%2Ftap-diff)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
 The most human-friendly [TAP reporter](https://github.com/substack/tape#pretty-reporters).
 
