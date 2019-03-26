@@ -1,6 +1,6 @@
 # @detools/tap-diff
 
-[![npm version](https://badge.fury.io/js/@detools/tap-diff.svg)](http://badge.fury.io/js/@detools/tap-diff)
+[![npm version](https://badge.fury.io/js/%40detools%2Ftap-diff.svg)](https://badge.fury.io/js/%40detools%2Ftap-diff)
 
 The most human-friendly [TAP reporter](https://github.com/substack/tape#pretty-reporters).
 
